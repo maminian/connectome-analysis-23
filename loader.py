@@ -50,6 +50,6 @@ if __name__=="__main__":
     Run to verify files can be loaded (errors will 
     be thrown otherwise)
     '''
-    for i,f in enumerate([load_s2, load_s3, load_s4, load_s1_adj_all_all]):
+    for f in [load_s2, load_s3, load_s4, load_s1_adj_all_all]:
         df_temp = f()
         print(f.__name__, 'can successfully load.')
