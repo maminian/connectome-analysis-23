@@ -152,5 +152,6 @@ cython_debug/
 #.idea/
 
 # Mine
-data/*
+data/*.csv
+data/*/*.csv
 *.zip
